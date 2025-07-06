@@ -14,25 +14,10 @@ export const SkillDetailSection: React.FC<SkillDetailSectionProps> = ({ user, te
         <>
         <div className={style.mainCard}>
             <CardSkill
-            person={{
-                id: String(user.id),
-                avatarUrl: user.avatarUrl,
-                name: user.name,
-                location: user.location,
-                age: String(user.age),
-                skillsCanTeach: user.skillCanTeach
-                ? [{ id: String(user.skillCanTeach.id), name: user.skillCanTeach.name }]
-                : [],
-                skillsWantToLearn: user.subcategoriesWantToLearn?.map(sub => ({
-                id: String(sub.id),
-                name: sub.name
-                })) ?? [],
-            }}
+            person={user}
             onDetailsClick={() => {}}
             toggleFavorite={() => {}}
             isFavorite={false}
-            addSkillsCount={0}
-            onShowMoreClick={() => {}}
             />
         </div>
 

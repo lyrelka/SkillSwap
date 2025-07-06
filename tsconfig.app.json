@@ -10,19 +10,33 @@
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
-    "verbatimModuleSyntax": true,
+//    "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": false,  // To be able to import types like this `import { FC } from 'react'` and not like this `import type { FC } from 'react'`
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
 
+// Base url and path to fix Cannot find module issue
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@app/*": ["src/app/*"],
+      "@shared/*": ["src/shared/*"],
+      "@entities/*": ["src/entities/*"],
+      "@features/*": ["src/features/*"],
+      "@pages/*": ["src/pages/*"],
+      "@widgets/*": ["src/widgets/*"]
+    },
+
+    "noUnusedLocals": false, // Ignore Unused declaration
     /* Linting */
     "strict": true,
-    "noUnusedLocals": true,
+//    "noUnusedLocals": true,
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
     "types": ["vite/client", "jest", "@testing-library/jest-dom"]
   },
-  "include": ["src"]
+  "include": ["src", "public"]
 }

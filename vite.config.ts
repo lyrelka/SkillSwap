@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 
 export default defineConfig({
+  base: '/SkillSwap',
   plugins: [react()],
   css: {
     modules: {
@@ -20,4 +21,7 @@ export default defineConfig({
       '@widgets': path.resolve(__dirname, './src/widgets'),
     },
   },
+  build: {
+    outDir: 'dist',
+  }
 });

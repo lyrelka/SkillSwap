@@ -10,7 +10,7 @@ export const CardSkillComponent: FC<CardSkillComponentProps> = memo(
     const onDetailsClick = () => {
       if (!person?.id) {
         // перенаправляем на 404, если person или id отсутствуют
-        navigate('/404', {
+        navigate(`${import.meta.env.BASE_URL}/404`, {
           state: {
             message: 'Пользователь не найден',
             from: 'CardSkillComponent',
@@ -20,11 +20,12 @@ export const CardSkillComponent: FC<CardSkillComponentProps> = memo(
         return;
       }
 
-      navigate(`/favorite/${person.id}`);
+      navigate(`${import.meta.env.BASE_URL}/skill/${person.id}`, { replace: true });
+      window.location.reload();
     };
 
     if (!person) {
-      navigate('/404', {
+      navigate(`${import.meta.env.BASE_URL}/404`, {
         state: {
           message: 'Данные пользователя не загружены',
           from: 'CardSkillComponent',

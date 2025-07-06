@@ -19,7 +19,7 @@ export const Footer = () => {
       onBlogClick={() => console.log('Blog clicked')}
       onPrivacyClick={() => console.log('Privacy clicked')}
       onAgreementClick={() => console.log('Agreement clicked')}
-      onLogo={() => {navigate('/', { replace: true })}}
+      onLogo={() => {navigate(`${import.meta.env.BASE_URL}/`, { replace: true })}}
     />
   )
 }

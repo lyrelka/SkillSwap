@@ -9,7 +9,7 @@ import { useLocation, useNavigate, useSearchParams } from "react-router-dom"
 export const Header = () => {
   const location = useLocation();
   
-  if (location.pathname === '/registration') {
+  if (location.pathname === `${import.meta.env.BASE_URL}/registration`) {
     return null
   }
 
@@ -44,9 +44,9 @@ export const Header = () => {
 
     if (searchDebounced) {
       redirectTimer = setTimeout(() => {
-        if (location.pathname !== '/') {
+        if (location.pathname !== `${import.meta.env.BASE_URL}/`) {
           if (searchDebounced) {
-            navigate(`/?search=${searchDebounced}`, { replace: true });
+            navigate(`${import.meta.env.BASE_URL}/?search=${searchDebounced}`, { replace: true });
             window.location.reload();
           }
         }
@@ -59,7 +59,7 @@ export const Header = () => {
   }, [searchDebounced])
 
   useEffect(() => {
-    if (location.pathname === '/') {
+    if (location.pathname === `${import.meta.env.BASE_URL}/`) {
       if (searchDebounced === ''){
         searchParams.delete('search');
         setSearchParams(searchParams);
@@ -80,14 +80,14 @@ export const Header = () => {
       <HeaderUI 
         isAuthenticated={false}
         onLogin={() => console.log('Login clicked')}
-        onRegister={() => {navigate('/registration', { replace: true })}}
+        onRegister={() => {navigate(`${import.meta.env.BASE_URL}/registration`, { replace: true })}}
         onThemeToggle={() => console.log('Theme toggle clicked')}
         onNotificationsClick={() => console.log('Notifications clicked')}
         onFavoritesClick={() => console.log('Favorites clicked')}
         onSkillsToggle={() => {
           setSkillsModalVisible(!isSkillsModalVisible);
         }}
-        onLogo={() => {navigate('/', { replace: true })}}
+        onLogo={() => {navigate(`${import.meta.env.BASE_URL}/`, { replace: true })}}
         onSearchChange={handleSearchChange}
         searchValue={searchValue}
       />

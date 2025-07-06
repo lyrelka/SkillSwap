@@ -10,7 +10,7 @@ const mockUsersData: CardPersonInfo[] = [
     avatarUrl: 'shared/assets/avatars/user_2.jpg',
     name: 'Анна',
     location: 'Казань',
-    age: 26,
+    age: '26',
     gender: 'Женский',
     skillCanTeach: {
       id: 9,
@@ -29,7 +29,7 @@ const mockUsersData: CardPersonInfo[] = [
     avatarUrl: 'shared/assets/avatars/user_3.jpg',
     name: 'Максим',
     location: 'Москва',
-    age: 23,
+    age: '23',
     gender: 'Мужской',
     skillCanTeach: {
       id: 35,
@@ -48,7 +48,7 @@ const mockUsersData: CardPersonInfo[] = [
     avatarUrl: 'shared/assets/avatars/user_4.jpg',
     name: 'Илона',
     location: 'Екатеринбург',
-    age: 33,
+    age: '33',
     gender: 'Женский',
     skillCanTeach: {
       id: 9,

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "avatarUrl": "./../../src/shared/assets/avatars/user_1.jpg",
+    "avatarUrl": "avatars/user_1.jpg",
     "name": "Иван",
     "location": "Санкт-Петербург",
     "age": "34 года",
@@ -12,13 +12,13 @@
       "description": "Привет! Я играю на барабанах уже больше 10 лет — от репетиций в гараже до выступлений на сцене с живыми группами. Научу основам техники (и как не отбить себе пальцы), играть любимые ритмы и разбирать песни, импровизировать и звучать уверенно даже без паритуры"
     },
     "images": [
-      "shared/assets/images/user_1_skill_image_1.jpg",
-      "shared/assets/images/user_1_skill_image_2.jpg",
-      "shared/assets/images/user_1_skill_image_3.jpg",
-      "shared/assets/images/user_1_skill_image_4.jpg",
-      "shared/assets/images/user_1_skill_image_5.jpg",
-      "shared/assets/images/user_1_skill_image_6.jpg",
-      "shared/assets/images/user_1_skill_image_7.jpg"
+      "images/user_1_skill_image_1.jpg",
+      "images/user_1_skill_image_2.jpg",
+      "images/user_1_skill_image_3.jpg",
+      "images/user_1_skill_image_4.jpg",
+      "images/user_1_skill_image_5.jpg",
+      "images/user_1_skill_image_6.jpg",
+      "images/user_1_skill_image_7.jpg"
     ],
     "subcategoriesWantToLearn": [
       { "id": 6, "name": "Тайм-менеджмент" },
@@ -29,7 +29,7 @@
   },
   {
     "id": 2,
-    "avatarUrl": "./../../src/shared/assets/avatars/user_2.jpg",
+    "avatarUrl": "avatars/user_2.jpg",
     "name": "Анна",
     "location": "Казань",
     "age": "26 лет",
@@ -48,7 +48,7 @@
   },
   {
     "id": 3,
-    "avatarUrl": "./../../src/shared/assets/avatars/user_3.jpg",
+    "avatarUrl": "avatars/user_3.jpg",
     "name": "Максим",
     "location": "Москва",
     "age": "23 года",
@@ -67,7 +67,7 @@
   },
   {
     "id": 4,
-    "avatarUrl": "./../../src/shared/assets/avatars/user_4.jpg",
+    "avatarUrl": "avatars/user_4.jpg",
     "name": "Илона",
     "location": "Екатеринбург",
     "age": "33 года",
@@ -86,7 +86,7 @@
   },
   {
     "id": 5,
-    "avatarUrl": "./../../src/shared/assets/avatars/user_5.jpg",
+    "avatarUrl": "avatars/user_5.jpg",
     "name": "Михаил",
     "location": "Новосибирск",
     "age": "29 лет",
@@ -105,7 +105,7 @@
   },
   {
     "id": 6,
-    "avatarUrl": "./../../src/shared/assets/avatars/user_6.jpg",
+    "avatarUrl": "avatars/user_6.jpg",
     "name": "Мария",
     "location": "Краснодар",
     "age": "21 год",
@@ -124,7 +124,7 @@
   },
   {
     "id": 7,
-    "avatarUrl": "./../../src/shared/assets/avatars/user_7.jpg",
+    "avatarUrl": "avatars/user_7.jpg",
     "name": "Виктория",
     "location": "Кемерово",
     "age": "30 лет",
@@ -143,7 +143,7 @@
   },
   {
     "id": 8,
-    "avatarUrl": "./../../src/shared/assets/avatars/user_8.jpg",
+    "avatarUrl": "avatars/user_8.jpg",
     "name": "Елизавета",
     "location": "Владивосток",
     "age": "25 лет",
@@ -162,7 +162,7 @@
   },
   {
     "id": 9,
-    "avatarUrl": "./../../src/shared/assets/avatars/user_9.jpg",
+    "avatarUrl": "avatars/user_9.jpg",
     "name": "Виктория",
     "location": "Сочи",
     "age": "31 год",
@@ -181,7 +181,7 @@
   },
   {
     "id": 10,
-    "avatarUrl": "./../../src/shared/assets/avatars/user_10.jpg",
+    "avatarUrl": "avatars/user_10.jpg",
     "name": "Елена",
     "location": "Красноярск",
     "age": "28 лет",
@@ -200,7 +200,7 @@
   },
   {
     "id": 11,
-    "avatarUrl": "./../../src/shared/assets/avatars/user_11.jpg",
+    "avatarUrl": "avatars/user_11.jpg",
     "name": "Константин",
     "location": "Иркутск",
     "age": "36 лет",
@@ -219,7 +219,7 @@
   },
   {
     "id": 12,
-    "avatarUrl": "./../../src/shared/assets/avatars/user_12.jpg",
+    "avatarUrl": "avatars/user_12.jpg",
     "name": "София",
     "location": "Абакан",
     "age": "24 года",
@@ -238,7 +238,7 @@
   },
   {
     "id": 13,
-    "avatarUrl": "./../../src/shared/assets/avatars/user_13.jpg",
+    "avatarUrl": "avatars/user_13.jpg",
     "name": "Екатерина",
     "location": "Пермь",
     "age": "33 года",
@@ -257,7 +257,7 @@
   },
   {
     "id": 14,
-    "avatarUrl": "./../../src/shared/assets/avatars/user_14.jpg",
+    "avatarUrl": "avatars/user_14.jpg",
     "name": "Дарья",
     "location": "Ярославль",
     "age": "26 лет",
@@ -276,7 +276,7 @@
   },
   {
     "id": 15,
-    "avatarUrl": "./../../src/shared/assets/avatars/user_15.jpg",
+    "avatarUrl": "avatars/user_15.jpg",
     "name": "Алла",
     "location": "Архангельск",
     "age": "22 года",

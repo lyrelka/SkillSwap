@@ -134,7 +134,7 @@ export const RegistrationPage: React.FC = () => {
     }
 
     console.log('ОТПРАВКА ДАННЫХ:', formData);
-    navigate('/');
+    navigate(`${import.meta.env.BASE_URL}/`);
   }, [formData, validate, navigate]);
 
   const rightPanelContent = useMemo(() => {
@@ -196,14 +196,14 @@ export const RegistrationPage: React.FC = () => {
                 className={styles.logo}
                 alt="Логотип компании SkillSwap"
                 loading="lazy"
-                onClick={() => navigate('/')}
+                onClick={() => navigate(`${import.meta.env.BASE_URL}/`)}
               />
               <span className={styles.logoBold}>SkillSwap</span>
             </h1>
           </div>
           <Button
             variant="back"
-            onClick={() => navigate('/')}
+            onClick={() => navigate(`${import.meta.env.BASE_URL}/`)}
             className={styles.closeButton}
           >
             Закрыть

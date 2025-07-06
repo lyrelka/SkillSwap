@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './userInfo.module.css';
-import placeholderAvatar from '../../../assets/avatars/user_1.jpg';
+import placeholderAvatar from './../../../../../public/avatars/user_1.jpg';
 import { UserInfoProps } from './types';
 
 

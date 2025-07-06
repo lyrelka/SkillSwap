@@ -2,7 +2,7 @@ import { TCategory, TSkill, TSubcategory } from '@shared/lib/db/skills/types';
 import memoize from 'lodash/memoize';
 
 export function readAllCategories(): Promise<TCategory[]> {
-  return fetch('/db/skills.json')
+  return fetch(`${import.meta.env.BASE_URL}/db/skills.json`)
     .then(response => response.json())
     .then(data => data as TCategory[])
     .catch(error => {
