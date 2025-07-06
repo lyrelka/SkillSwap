@@ -43,7 +43,7 @@
         "skills": [{ "id": 8, "name": "Бизнес-планирование" }]
       }
     ],
-    "icon": "icons/briefcase.svg",
+    "icon": "SkillSwap/icons/briefcase.svg",
     "color": "EEE7F7"
   },
   {
@@ -85,7 +85,7 @@
         "skills": [{ "id": 15, "name": "Стратегии сдачи IELTS" }]
       }
     ],
-    "icon": "icons/global.svg",
+    "icon": "SkillSwap/icons/global.svg",
     "color": "EBE5C5"
   },
   {
@@ -122,7 +122,7 @@
         "skills": [{ "id": 21, "name": "Организация пространства" }]
       }
     ],
-    "icon": "icons/home.svg",
+    "icon": "SkillSwap/icons/home.svg",
     "color": "F7EBE5"
   },
   {
@@ -169,7 +169,7 @@
         "skills": [{ "id": 29, "name": "Изготовление декора своими руками" }]
       }
     ],
-    "icon": "icons/palette.svg",
+    "icon": "SkillSwap/icons/palette.svg",
     "color": "F7E7F2"
   },
   {
@@ -206,7 +206,7 @@
         "skills": [{ "id": 35, "name": "Техники активного слушания" }]
       }
     ],
-    "icon": "icons/book.svg",
+    "icon": "SkillSwap/icons/book.svg",
     "color": "E7F2F6"
   },
   {
@@ -248,7 +248,7 @@
         "skills": [{ "id": 42, "name": "Границы работы и отдыха" }]
       }
     ],
-    "icon": "icons/lifestyle.svg",
+    "icon": "SkillSwap/icons/lifestyle.svg",
     "color": "E9F7E7"
   }
 ]
