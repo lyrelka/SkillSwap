@@ -1,0 +1,296 @@
+[
+  {
+    "id": 1,
+    "avatarUrl": "./../../src/shared/assets/avatars/user_1.jpg",
+    "name": "Иван",
+    "location": "Санкт-Петербург",
+    "age": "34 года",
+    "gender": "Мужской",
+    "skillCanTeach": {
+      "id": 25,
+      "name": "Игра на барабанах",
+      "description": "Привет! Я играю на барабанах уже больше 10 лет — от репетиций в гараже до выступлений на сцене с живыми группами. Научу основам техники (и как не отбить себе пальцы), играть любимые ритмы и разбирать песни, импровизировать и звучать уверенно даже без паритуры"
+    },
+    "images": [
+      "shared/assets/images/user_1_skill_image_1.jpg",
+      "shared/assets/images/user_1_skill_image_2.jpg",
+      "shared/assets/images/user_1_skill_image_3.jpg",
+      "shared/assets/images/user_1_skill_image_4.jpg",
+      "shared/assets/images/user_1_skill_image_5.jpg",
+      "shared/assets/images/user_1_skill_image_6.jpg",
+      "shared/assets/images/user_1_skill_image_7.jpg"
+    ],
+    "subcategoriesWantToLearn": [
+      { "id": 6, "name": "Тайм-менеджмент" },
+      { "id": 36, "name": "Медитация" },
+      { "id": 38, "name": "Ментальное здоровье" },
+      { "id": 40, "name": "Физические тренировки" }
+    ]
+  },
+  {
+    "id": 2,
+    "avatarUrl": "./../../src/shared/assets/avatars/user_2.jpg",
+    "name": "Анна",
+    "location": "Казань",
+    "age": "26 лет",
+    "gender": "Женский",
+    "skillCanTeach": {
+      "id": 9,
+      "name": "Английский",
+      "description": "Привет! Учу английскому языку!"
+    },
+    "subcategoriesWantToLearn": [
+      { "id": 6, "name": "Тайм-менеджмент" },
+      { "id": 36, "name": "Медитация" },
+      { "id": 38, "name": "Ментальное здоровье" },
+      { "id": 40, "name": "Физические тренировки" }
+    ]
+  },
+  {
+    "id": 3,
+    "avatarUrl": "./../../src/shared/assets/avatars/user_3.jpg",
+    "name": "Максим",
+    "location": "Москва",
+    "age": "23 года",
+    "gender": "Мужской",
+    "skillCanTeach": {
+      "id": 35,
+      "name": "Бизнес-планирование",
+      "description": "Привет! Учу бизнесу!"
+    },
+    "subcategoriesWantToLearn": [
+      { "id": 6, "name": "Тайм-менеджмент" },
+      { "id": 36, "name": "Медитация" },
+      { "id": 38, "name": "Ментальное здоровье" },
+      { "id": 40, "name": "Физические тренировки" }
+    ]
+  },
+  {
+    "id": 4,
+    "avatarUrl": "./../../src/shared/assets/avatars/user_4.jpg",
+    "name": "Илона",
+    "location": "Екатеринбург",
+    "age": "33 года",
+    "gender": "Женский",
+    "skillCanTeach": {
+      "id": 9,
+      "name": "Английский",
+      "description": "Привет! Учу английскому языку!"
+    },
+    "subcategoriesWantToLearn": [
+      { "id": 6, "name": "Тайм-менеджмент" },
+      { "id": 36, "name": "Медитация" },
+      { "id": 38, "name": "Ментальное здоровье" },
+      { "id": 40, "name": "Физические тренировки" }
+    ]
+  },
+  {
+    "id": 5,
+    "avatarUrl": "./../../src/shared/assets/avatars/user_5.jpg",
+    "name": "Михаил",
+    "location": "Новосибирск",
+    "age": "29 лет",
+    "gender": "Мужской",
+    "skillCanTeach": {
+      "id": 9,
+      "name": "Английский",
+      "description": "Привет! Учу английскому языку!"
+    },
+    "subcategoriesWantToLearn": [
+      { "id": 6, "name": "Тайм-менеджмент" },
+      { "id": 36, "name": "Медитация" },
+      { "id": 38, "name": "Ментальное здоровье" },
+      { "id": 40, "name": "Физические тренировки" }
+    ]
+  },
+  {
+    "id": 6,
+    "avatarUrl": "./../../src/shared/assets/avatars/user_6.jpg",
+    "name": "Мария",
+    "location": "Краснодар",
+    "age": "21 год",
+    "gender": "Женский",
+    "skillCanTeach": {
+      "id": 9,
+      "name": "Английский",
+      "description": "Привет! Учу английскому языку!"
+    },
+    "subcategoriesWantToLearn": [
+      { "id": 6, "name": "Тайм-менеджмент" },
+      { "id": 36, "name": "Медитация" },
+      { "id": 38, "name": "Ментальное здоровье" },
+      { "id": 40, "name": "Физические тренировки" }
+    ]
+  },
+  {
+    "id": 7,
+    "avatarUrl": "./../../src/shared/assets/avatars/user_7.jpg",
+    "name": "Виктория",
+    "location": "Кемерово",
+    "age": "30 лет",
+    "gender": "Женский",
+    "skillCanTeach": {
+      "id": 25,
+      "name": "Игра на барабанах",
+      "description": "Привет! Учу игре на барабанах!"
+    },
+    "subcategoriesWantToLearn": [
+      { "id": 6, "name": "Тайм-менеджмент" },
+      { "id": 36, "name": "Медитация" },
+      { "id": 38, "name": "Ментальное здоровье" },
+      { "id": 40, "name": "Физические тренировки" }
+    ]
+  },
+  {
+    "id": 8,
+    "avatarUrl": "./../../src/shared/assets/avatars/user_8.jpg",
+    "name": "Елизавета",
+    "location": "Владивосток",
+    "age": "25 лет",
+    "gender": "Женский",
+    "skillCanTeach": {
+      "id": 25,
+      "name": "Игра на барабанах",
+      "description": "Привет! Учу игре на барабанах!"
+    },
+    "subcategoriesWantToLearn": [
+      { "id": 6, "name": "Тайм-менеджмент" },
+      { "id": 36, "name": "Медитация" },
+      { "id": 38, "name": "Ментальное здоровье" },
+      { "id": 40, "name": "Физические тренировки" }
+    ]
+  },
+  {
+    "id": 9,
+    "avatarUrl": "./../../src/shared/assets/avatars/user_9.jpg",
+    "name": "Виктория",
+    "location": "Сочи",
+    "age": "31 год",
+    "gender": "Женский",
+    "skillCanTeach": {
+      "id": 25,
+      "name": "Игра на барабанах",
+      "description": "Привет! Учу игре на барабанах!"
+    },
+    "subcategoriesWantToLearn": [
+      { "id": 6, "name": "Тайм-менеджмент" },
+      { "id": 36, "name": "Медитация" },
+      { "id": 38, "name": "Ментальное здоровье" },
+      { "id": 40, "name": "Физические тренировки" }
+    ]
+  },
+  {
+    "id": 10,
+    "avatarUrl": "./../../src/shared/assets/avatars/user_10.jpg",
+    "name": "Елена",
+    "location": "Красноярск",
+    "age": "28 лет",
+    "gender": "Женский",
+    "skillCanTeach": {
+      "id": 25,
+      "name": "Игра на барабанах",
+      "description": "Привет! Учу игре на барабанах!"
+    },
+    "subcategoriesWantToLearn": [
+      { "id": 6, "name": "Тайм-менеджмент" },
+      { "id": 36, "name": "Медитация" },
+      { "id": 38, "name": "Ментальное здоровье" },
+      { "id": 40, "name": "Физические тренировки" }
+    ]
+  },
+  {
+    "id": 11,
+    "avatarUrl": "./../../src/shared/assets/avatars/user_11.jpg",
+    "name": "Константин",
+    "location": "Иркутск",
+    "age": "36 лет",
+    "gender": "Мужской",
+    "skillCanTeach": {
+      "id": 25,
+      "name": "Игра на барабанах",
+      "description": "Привет! Учу игре на барабанах!"
+    },
+    "subcategoriesWantToLearn": [
+      { "id": 6, "name": "Тайм-менеджмент" },
+      { "id": 36, "name": "Медитация" },
+      { "id": 38, "name": "Ментальное здоровье" },
+      { "id": 40, "name": "Физические тренировки" }
+    ]
+  },
+  {
+    "id": 12,
+    "avatarUrl": "./../../src/shared/assets/avatars/user_12.jpg",
+    "name": "София",
+    "location": "Абакан",
+    "age": "24 года",
+    "gender": "Женский",
+    "skillCanTeach": {
+      "id": 25,
+      "name": "Игра на барабанах",
+      "description": "Привет! Учу игре на барабанах!"
+    },
+    "subcategoriesWantToLearn": [
+      { "id": 6, "name": "Тайм-менеджмент" },
+      { "id": 36, "name": "Медитация" },
+      { "id": 38, "name": "Ментальное здоровье" },
+      { "id": 40, "name": "Физические тренировки" }
+    ]
+  },
+  {
+    "id": 13,
+    "avatarUrl": "./../../src/shared/assets/avatars/user_13.jpg",
+    "name": "Екатерина",
+    "location": "Пермь",
+    "age": "33 года",
+    "gender": "Женский",
+    "skillCanTeach": {
+      "id": 25,
+      "name": "Игра на барабанах",
+      "description": "Привет! Учу игре на барабанах!"
+    },
+    "subcategoriesWantToLearn": [
+      { "id": 6, "name": "Тайм-менеджмент" },
+      { "id": 36, "name": "Медитация" },
+      { "id": 38, "name": "Ментальное здоровье" },
+      { "id": 40, "name": "Физические тренировки" }
+    ]
+  },
+  {
+    "id": 14,
+    "avatarUrl": "./../../src/shared/assets/avatars/user_14.jpg",
+    "name": "Дарья",
+    "location": "Ярославль",
+    "age": "26 лет",
+    "gender": "Женский",
+    "skillCanTeach": {
+      "id": 25,
+      "name": "Игра на барабанах",
+      "description": "Привет! Учу игре на барабанах!"
+    },
+    "subcategoriesWantToLearn": [
+      { "id": 6, "name": "Тайм-менеджмент" },
+      { "id": 36, "name": "Медитация" },
+      { "id": 38, "name": "Ментальное здоровье" },
+      { "id": 40, "name": "Физические тренировки" }
+    ]
+  },
+  {
+    "id": 15,
+    "avatarUrl": "./../../src/shared/assets/avatars/user_15.jpg",
+    "name": "Алла",
+    "location": "Архангельск",
+    "age": "22 года",
+    "gender": "Женский",
+    "skillCanTeach": {
+      "id": 25,
+      "name": "Игра на барабанах",
+      "description": "Привет! Учу игре на барабанах!"
+    },
+    "subcategoriesWantToLearn": [
+      { "id": 6, "name": "Тайм-менеджмент" },
+      { "id": 36, "name": "Медитация" },
+      { "id": 38, "name": "Ментальное здоровье" },
+      { "id": 40, "name": "Физические тренировки" }
+    ]
+  }
+]
