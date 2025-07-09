@@ -13,12 +13,12 @@ export const Footer = () => {
   
   return (
     <FooterUI 
-      onAboutClick={() => console.log('About clicked')}
-      onSkilsClick={() => console.log('Skills clicked')}
-      onContactClick={() => console.log('Contact clicked')}
-      onBlogClick={() => console.log('Blog clicked')}
-      onPrivacyClick={() => console.log('Privacy clicked')}
-      onAgreementClick={() => console.log('Agreement clicked')}
+      onAboutClick={() => {navigate(`${import.meta.env.BASE_URL}/about`)}}
+      onSkilsClick={() => {navigate(`${import.meta.env.BASE_URL}/skills`)}}
+      onContactClick={() => {navigate(`${import.meta.env.BASE_URL}/contact`)}}
+      onBlogClick={() => {navigate(`${import.meta.env.BASE_URL}/blog`)}}
+      onPrivacyClick={() => {navigate(`${import.meta.env.BASE_URL}/privacy`)}}
+      onAgreementClick={() => {navigate(`${import.meta.env.BASE_URL}/agreement`)}}
       onLogo={() => {navigate(`${import.meta.env.BASE_URL}/`, { replace: true })}}
     />
   )

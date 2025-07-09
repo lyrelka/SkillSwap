@@ -38,7 +38,7 @@ export const HomePage = () => {
       setSearchedUsers([]);
       setIsSearchLoading(true);
     }
-  }, [searchValue, formatParams])
+  }, [filteredUsers, searchValue, formatParams])
 
   useEffect(() => {
     if (!isFilterLoading){

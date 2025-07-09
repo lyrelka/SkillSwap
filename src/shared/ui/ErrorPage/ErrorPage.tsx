@@ -13,7 +13,7 @@ const ErrorPage = ({
   const navigate = useNavigate();
 
   const handleHomeClick = () => {
-    navigate('/');
+    navigate(`${import.meta.env.BASE_URL}/`, { replace: true });
   };
   return (
     <div className={styles.errorPage}>
@@ -33,7 +33,7 @@ const ErrorPage = ({
           Сообщить об ошибке
         </button>
         <Link
-          to="/"
+          to={`${import.meta.env.BASE_URL}/`}
           className={clsx(styles.button, styles.primaryButton)}
           onClick={handleHomeClick}
         >

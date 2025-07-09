@@ -7,7 +7,7 @@ import type { HeaderMenuProps } from './types';
 export const HeaderMenu = ({ onSkillsToggle }: HeaderMenuProps) => {
     return (
         <div className={styles.menuBlock}>
-            <Link to="/about" className={styles.navLink} aria-label="Подробнее о проекте">
+            <Link to={`${import.meta.env.BASE_URL}/about`} className={styles.navLink} aria-label="Подробнее о проекте">
                 О проекте
             </Link>
 

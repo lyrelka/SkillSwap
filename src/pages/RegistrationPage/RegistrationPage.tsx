@@ -189,14 +189,19 @@ export const RegistrationPage: React.FC = () => {
     <div className={styles.pageLayout}>
       <div className={styles.contentWrapper}>
         <header className={styles.mainHeader}>
-          <div className={styles.logo}>
+          <div 
+            className={styles.logo}
+            onClick={() => navigate(`${import.meta.env.BASE_URL}/`)}
+            role="button"
+            tabIndex={0}
+            onKeyDown={(e) => e.key === 'Enter' && navigate(`${import.meta.env.BASE_URL}/`)}
+          >
             <h1>
               <img
                 src={logo}
                 className={styles.logo}
                 alt="Логотип компании SkillSwap"
                 loading="lazy"
-                onClick={() => navigate(`${import.meta.env.BASE_URL}/`)}
               />
               <span className={styles.logoBold}>SkillSwap</span>
             </h1>

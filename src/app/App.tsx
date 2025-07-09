@@ -14,7 +14,7 @@ const App = () => {
       <Header/>
       <Routes>
         <Route path={`${import.meta.env.BASE_URL}/`} element={<HomePage />} />
-        <Route path='*' element={<Page404 />} />
+        <Route path={`${import.meta.env.BASE_URL}/*`} element={<Page404 />} />
         <Route path={`${import.meta.env.BASE_URL}/500`} element={<Page500 />} />
         <Route element={<ProtectedRoute isAuthenticated={false} />}>
           <Route path={`${import.meta.env.BASE_URL}/registration`} element={<RegistrationPage />} />

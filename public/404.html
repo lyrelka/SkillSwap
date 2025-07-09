@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SkillSwap</title>
+  <script type="text/javascript">
+    var pathSegmentsToKeep = 1;
+    var l = window.location;
+    l.replace(
+      l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+      l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+      l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+      (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+      l.hash
+    );
+  </script>
+</head>
+<body>
+<!-- This file must be at least 512 bytes for IE compatibility -->
+<!-- GitHub Pages serves this when any route doesn't exist as a physical file -->
+<!-- The script redirects to the main React app which then handles routing -->
+<!-- This allows /500 to load your React Page500 component instead of GitHub's 404 -->
+<!-- Additional padding to meet the 512 byte requirement for older browsers -->
+</body>
+</html>

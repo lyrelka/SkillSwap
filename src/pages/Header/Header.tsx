@@ -47,7 +47,6 @@ export const Header = () => {
         if (location.pathname !== `${import.meta.env.BASE_URL}/`) {
           if (searchDebounced) {
             navigate(`${import.meta.env.BASE_URL}/?search=${searchDebounced}`, { replace: true });
-            window.location.reload();
           }
         }
       }, 500)
@@ -79,11 +78,11 @@ export const Header = () => {
     <>
       <HeaderUI 
         isAuthenticated={false}
-        onLogin={() => console.log('Login clicked')}
+        onLogin={() => {navigate(`${import.meta.env.BASE_URL}/login`)}}
         onRegister={() => {navigate(`${import.meta.env.BASE_URL}/registration`, { replace: true })}}
         onThemeToggle={() => console.log('Theme toggle clicked')}
         onNotificationsClick={() => console.log('Notifications clicked')}
-        onFavoritesClick={() => console.log('Favorites clicked')}
+        onFavoritesClick={() => {navigate(`${import.meta.env.BASE_URL}/favorites`)}}
         onSkillsToggle={() => {
           setSkillsModalVisible(!isSkillsModalVisible);
         }}
